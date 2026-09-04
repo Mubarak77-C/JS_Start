@@ -1,8 +1,19 @@
-body{
+body {
     background: royalblue;
-    margin:auto;
-    max-width: fit-content;
+    margin: auto;
+  
+    border: 3px solid chartreuse;
+
+}
+
+.section {
+    background: rgb(179, 90, 90);
     display: flex;
     align-items: center;
     justify-content: center;
+   padding: 19px 28px;
+  margin: 40px;
+    border:2px solid gold;
+    font-size: 22px;
+    font-weight: bold;
 }
