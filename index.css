@@ -42,3 +42,12 @@ padding: 3px 10px;
   
 
 }
+
+/* w3school template string ``  */
+.templateString{
+    background: lightgrey;
+    padding: 2px 2px;
+    margin:2px;
+    border: 2px solid forestgreen;
+    border-radius: 5px;
+}

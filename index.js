@@ -170,3 +170,22 @@ console.log( `hello ${name}` ); // ? hello Ilya
 // console.log(badString);  //string not defined error
 const bigmouth = 'I\'ve got no right to take my place…';
 console.log(bigmouth);
+
+//from w3school
+
+let header="Template Strings";
+let tag=["Template string","JavaScript","es6"];
+let html =`<h2>${header}</h2><ul>`;
+for(const x of tag){
+html +=`<li>${x}</li>`;
+}
+html+=`</ul>`;
+document.getElementById("demo").innerHTML=html;
+
+//concatenation method
+let con1="Hello";
+let con2="World!";
+let con3;
+con3=con1.concat(" ",con2);
+
+document.getElementById("con").innerHTML=con3;
